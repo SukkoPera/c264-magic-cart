@@ -4468,10 +4468,22 @@
 		)
 	)
 	(junction
+		(at 46.99 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0db1c3aa-0e17-4c12-816b-b4f72c9bb168")
+	)
+	(junction
 		(at 218.44 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16a66d1c-d565-4322-93e1-0f8a06e67318")
+	)
+	(junction
+		(at 46.99 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d283b48-0f43-4329-9e33-1a22fc8206b9")
 	)
 	(junction
 		(at 88.9 177.8)
@@ -4484,18 +4496,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70f03113-c23f-4fbb-b850-a9470ab95b08")
-	)
-	(junction
-		(at 49.53 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9816fbc2-10d0-43af-b224-9e308c505383")
-	)
-	(junction
-		(at 49.53 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98882907-505a-461c-bb25-48fd6677d3e6")
 	)
 	(junction
 		(at 35.56 167.64)
@@ -4775,7 +4775,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 175.26) (xy 49.53 175.26)
+			(xy 46.99 167.64) (xy 49.53 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bd50ca-4574-4c83-88c3-ab04407587d5")
+	)
+	(wire
+		(pts
+			(xy 35.56 175.26) (xy 46.99 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4915,16 +4925,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 175.26) (xy 54.61 175.26)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3c79c9e6-2c00-4732-be6b-15fd794ffd1c")
-	)
-	(wire
-		(pts
 			(xy 81.28 113.03) (xy 83.82 113.03)
 		)
 		(stroke
@@ -5045,7 +5045,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 167.64) (xy 54.61 167.64)
+			(xy 49.53 167.64) (xy 58.42 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -5145,7 +5145,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 167.64) (xy 49.53 167.64)
+			(xy 35.56 167.64) (xy 46.99 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5495,7 +5495,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 175.26) (xy 49.53 175.26)
+			(xy 35.56 175.26) (xy 46.99 175.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -5555,6 +5555,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 175.26) (xy 49.53 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9c516f-6762-4816-8f3e-4689a098792a")
+	)
+	(wire
+		(pts
 			(xy 148.59 106.68) (xy 151.13 106.68)
 		)
 		(stroke
@@ -5572,6 +5582,16 @@
 			(type solid)
 		)
 		(uuid "9debae4c-cf9f-4b01-b809-7779a5396128")
+	)
+	(wire
+		(pts
+			(xy 46.99 175.26) (xy 58.42 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9def7ec5-c99f-491c-876b-6be7a0197764")
 	)
 	(wire
 		(pts
@@ -7951,7 +7971,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 171.45 0)
+		(at 46.99 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7959,8 +7979,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "181949e5-7621-4a6f-b50e-1116ad324b8d")
-		(property "Reference" "C3"
-			(at 53.34 170.1799 0)
+		(property "Reference" "C2"
+			(at 50.8 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,7 +7989,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 53.34 172.7199 0)
+			(at 50.8 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +7998,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 50.4952 175.26 0)
+			(at 47.9552 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +8007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 171.45 0)
+			(at 46.99 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,7 +8016,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 171.45 0)
+			(at 46.99 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,7 +8033,7 @@
 		(instances
 			(project "c264-magic-cart-rev1"
 				(path "/4f6144cc-f8fb-4506-9c6e-a7a5c74469ea"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8891,7 +8911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c32adfb2-fa84-474b-8324-025c694fb840")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 39.37 170.1799 0)
 			(effects
 				(font
@@ -8945,7 +8965,7 @@
 		(instances
 			(project ""
 				(path "/4f6144cc-f8fb-4506-9c6e-a7a5c74469ea"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9179,6 +9199,76 @@
 			(project ""
 				(path "/4f6144cc-f8fb-4506-9c6e-a7a5c74469ea"
 					(reference "SJ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 58.42 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e38646d8-d7e6-4af4-b2ff-b2c2e3ad105d")
+		(property "Reference" "C3"
+			(at 62.23 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 62.23 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
+			(at 59.3852 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 58.42 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "500823e5-cc86-44ec-bb01-1f09900e8e3b")
+		)
+		(pin "2"
+			(uuid "bea4c2d9-8c92-4f06-89be-ae9ef2ab04c9")
+		)
+		(instances
+			(project "c264-magic-cart-rev1"
+				(path "/4f6144cc-f8fb-4506-9c6e-a7a5c74469ea"
+					(reference "C3")
 					(unit 1)
 				)
 			)
