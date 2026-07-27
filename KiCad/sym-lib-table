@@ -1,4 +1,5 @@
 (sym_lib_table
-  (version 0)
+  (version 7)
   (lib (name "c264-magic-cart-rev1-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/c264-magic-cart-rev1-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "C16-Exp-Port-44pin-In")(type "KiCad")(uri "${KIPRJMOD}/libs/C16-Exp-Port-44pin-In.kicad_sym")(options "")(descr ""))
 )
