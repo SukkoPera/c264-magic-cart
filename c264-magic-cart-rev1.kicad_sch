@@ -5,7 +5,12 @@
 	(uuid "4f6144cc-f8fb-4506-9c6e-a7a5c74469ea")
 	(paper "A4")
 	(title_block
+		(title "c264-magic-cart (44-Pin Version)")
 		(date "2026-07-27")
+		(rev "1s")
+		(company "SukkoPera")
+		(comment 1 "Licensed under CERN OHL v.1.2")
+		(comment 2 "https://github.com/SukkoPera/c264-magic-cart-44pin")
 	)
 	(lib_symbols
 		(symbol "74xx:74HCT273"

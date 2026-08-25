@@ -11,7 +11,9 @@ This version is still aimed at the C16/C116/Plus4 and it **requires** the usage 
 Isn't Open Hardware great?
 
 ## Usage
-Please refer to [the original project](https://github.com/msolajic/c264-magic-cart) for documentation, instructions, etc.
+The project was migrated to KiCad, during which the nice graphics were lost. Apart from that and changing the connector, I only made minor modifications, mostly to switch to standard KiCad footprints.
+
+Therefore please refer to [the original project](https://github.com/msolajic/c264-magic-cart) for all documentation, instructions, etc.
 
 ## Releases
 If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/c264-magic-cart-44pin/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
