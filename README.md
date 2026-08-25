@@ -25,8 +25,6 @@ The original c264-magic-cart is Open Hardware licensed under the [CERN OHL v. 1.
 
 This 44-pin version is copyright &copy; SukkoPera 2026 and is licensed under the same license.
 
-You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. A copy of the full license is included in file [LICENSE.txt](LICENSE.txt)
-
 ## Thanks
 - Marko for his amazing work.
 - Tadeusz Klimaszewski for coming up with the idea of porting this project to the 44-pin connector and testing it.
