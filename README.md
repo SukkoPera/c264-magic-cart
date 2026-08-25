@@ -1,7 +1,7 @@
 # c264-magic-cart 44-pin
 c264-magic-cart is a cartridge for the Commodore 264 series of computers - Commodore 16, 116 and Plus/4.
 
-![Board](https://raw.githubusercontent.com/SukkoPera/c264-magic-cart-44pin/master/img/render-top.png)
+![Board](https://raw.githubusercontent.com/SukkoPera/c264-magic-cart-44pin/main/img/render-top.png)
 
 ## Summary
 This is a 44-pin variant of [the original project by Marko Šolajić](https://github.com/msolajic/c264-magic-cart).
