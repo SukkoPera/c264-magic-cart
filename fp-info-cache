@@ -1,4 +1,4 @@
-23804104681889845
+23791616716492208
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96488,48 +96488,6 @@ Varistor VF
 2
 2
 c264-magic-cart-rev1
-C16_CART
-
-
-0
-50
-50
-c264-magic-cart-rev1
-C025-024X044_334
-CAPACITOR{return}{return}grid 2.5 mm, outline 2.4 x 4.4 mm
-
-0
-2
-2
-c264-magic-cart-rev1
-DIL20_85
-Dual In Line Package
-
-0
-20
-20
-c264-magic-cart-rev1
-DIL24-3_321
-Dual In Line Package 0.3 inch
-
-0
-24
-24
-c264-magic-cart-rev1
-DIL32
-Dual In Line
-
-0
-32
-32
-c264-magic-cart-rev1
-DIP42
-42pin Dual In Line Package Wide (0.6 inch)
-
-0
-42
-42
-c264-magic-cart-rev1
 EdgeConn-44pin
 
 
@@ -96538,13 +96496,6 @@ EdgeConn-44pin
 44
 c264-magic-cart-rev1
 SJ_2
-Solder jumper
-
-0
-3
-3
-c264-magic-cart-rev1
-SJ_2_252
 Solder jumper
 
 0

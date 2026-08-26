@@ -52,7 +52,12 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|125690000|92710000|4fc60487-2133-4c10-a8d6-e2e7be948591|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|161250000|78740000|2c5d9c4d-2c12-41c3-96ec-5c76e73e5f83|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|158750000|105410000|db1cccfd-00e9-4f24-9fe5-3ffcf0e71405|db303146-159e-4b4b-876e-6407c0a1067f|F.Cu",
+        "starved_thermal|158750000|107950000|db1cccfd-00e9-4f24-9fe5-3ffcf0e71405|b7d172e3-6298-474b-8582-dedaa23139fc|F.Cu"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -97,7 +102,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
